@@ -18,7 +18,7 @@ struct TwirlView: View {
                 AnimalPhoto(image: "Penguin")
                     .frame(width: 200, height: 200) // 프레임 크기 설정
                     .clipShape(Circle()) // 이미지를 원형으로 자름
-                    .transition(.twirl) // 커스텀 트랜지션 적용
+//                    .transition(.twirl) // 커스텀 트랜지션 적용
             }
             Button {
                 withAnimation { // 애니메이션과 함께 showAvatar 상태를 토글
